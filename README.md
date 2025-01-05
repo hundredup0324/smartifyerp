@@ -1,4 +1,4 @@
-# SmartifERP
+# SmartifyERP
 
  Flutter project.
 
