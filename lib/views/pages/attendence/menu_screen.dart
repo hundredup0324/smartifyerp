@@ -73,7 +73,7 @@ class MenuScreen extends StatelessWidget {
               cardColor: const Color(0xFFF3E5F5),
               iconColor: const Color(0xFF9C27B0),
               onTap: () {
-                Get.offAll(() => MainScreen(screenIndex: 4));
+                Get.offAll(() => MainScreen(screenIndex: 3));
               },
             ),
             const SizedBox(height: 16),
@@ -84,7 +84,7 @@ class MenuScreen extends StatelessWidget {
               cardColor: const Color(0xFFFFFDE7),
               iconColor: const Color(0xFFFFC107),
               onTap: () {
-                Get.offAll(() => MainScreen(screenIndex: 5));
+                Get.offAll(() => MainScreen(screenIndex: 4));
               },
             ),
           ],
