@@ -164,7 +164,7 @@ class MainScreen extends StatelessWidget {
                     title: "Helpdesk Support",
                     icon: Icons.support_agent,
                     iconColor: AppColor.primaryColor,
-                    onTap: () => dashboardController.currantIndex.value = 4,
+                    onTap: () => dashboardController.currantIndex.value = 3,
                   ),
 
 
@@ -174,7 +174,7 @@ class MainScreen extends StatelessWidget {
                     title: "Settings",
                     iconColor: AppColor.primaryColor,
                     icon: Icons.settings,
-                    onTap: () => dashboardController.currantIndex.value = 5,
+                    onTap: () => dashboardController.currantIndex.value = 4,
                   ),
                   const Divider(),
                   // Logout
